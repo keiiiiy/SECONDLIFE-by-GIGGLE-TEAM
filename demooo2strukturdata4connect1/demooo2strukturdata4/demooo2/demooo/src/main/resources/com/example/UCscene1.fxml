@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane accessibleRole="BUTTON" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #C3B9EA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.UCscene1Controller">
+   <children>
+   
+   
+      <AnchorPane layoutY="2.0" prefHeight="45.0" prefWidth="650.0" style="-fx-background-color: #FFF8C9;">
+         <children>
+            <ImageView fx:id="cart" fitHeight="25.0" fitWidth="25.0" layoutX="536.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambarcart.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="account" fitHeight="25.0" fitWidth="25.0" layoutX="596.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambarakun.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="200.0" layoutY="8.0" prefHeight="26.0" prefWidth="310.0" promptText="Cari di SecondLife" />
+            <ImageView fx:id="search" fitHeight="20.0" fitWidth="25.0" layoutX="170.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambarsearch.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="back" fitHeight="25.0" fitWidth="25.0" layoutX="13.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/arrow-left-solid.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="6.0" text="SecondLife">
+               <padding>
+                  <Insets bottom="5.0" left="2.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="10.0" layoutY="60.0" prefHeight="427.0" prefWidth="232.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Pane layoutX="14.0" layoutY="9.0" prefHeight="27.0" prefWidth="204.0" style="-fx-background-color: #F4EFD3;">
+               <children>
+                  <Label layoutX="3.0" layoutY="3.0" text="Account Information">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="pencil" fitHeight="29.0" fitWidth="47.0" layoutX="171.0" layoutY="-2.0" onMouseClicked="#handlePencilClick" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/gambarpencil.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fx:id="profile" fitHeight="143.0" fitWidth="154.0" layoutX="39.0" layoutY="37.0">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambarprofile.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="username1" alignment="CENTER" layoutX="2.0" layoutY="173.0" prefHeight="16.0" prefWidth="232.0" text="Laura Vanetta ZL.">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="email" alignment="CENTER" layoutX="3.0" layoutY="191.0" prefHeight="16.0" prefWidth="232.0" text="LauraVenettaa25@gmail.com">
+               <font>
+                  <Font name="System Italic" size="11.0" />
+               </font>
+            </Label>
+            <Pane layoutX="16.0" layoutY="233.0" prefHeight="27.0" prefWidth="200.0" style="-fx-background-color: #F4EFD3; -fx-background-radius: 25;">
+               <children>
+                  <Label fx:id="username2" layoutX="6.0" layoutY="5.0" prefHeight="15.0" prefWidth="188.0" text="Username : Laura Vanetta ZL.">
+                     <font>
+                        <Font name="Georgia" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="16.0" layoutY="277.0" prefHeight="27.0" prefWidth="200.0" style="-fx-background-color: #F4EFD3; -fx-background-radius: 25;">
+               <children>
+                  <Label fx:id="password" layoutX="12.0" layoutY="6.0" prefHeight="15.0" prefWidth="188.0" text="Password : phoenixs07$">
+                     <font>
+                        <Font name="Georgia" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="17.0" layoutY="321.0" prefHeight="27.0" prefWidth="200.0" style="-fx-background-color: #F4EFD3; -fx-background-radius: 25;">
+               <children>
+                  <Label fx:id="nohp" layoutX="5.0" layoutY="6.0" prefHeight="15.0" prefWidth="200.0" text="Phone Number : +1234567890">
+                     <font>
+                        <Font name="Georgia" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="17.0" layoutY="364.0" prefHeight="27.0" prefWidth="200.0" style="-fx-background-color: #F4EFD3; -fx-background-radius: 25;">
+               <children>
+                  <Label layoutX="6.0" layoutY="6.0" prefHeight="14.0" prefWidth="188.0" text="Address : 123 Brooklyn, New York City">
+                     <font>
+                        <Font name="Georgia" size="11.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="247.0" layoutY="61.0" prefHeight="427.0" prefWidth="395.0" style="-fx-background-color: #F4EFD3;">
+         <children>
+            <Pane layoutX="51.0" layoutY="14.0" prefHeight="25.0" prefWidth="322.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <Label layoutX="7.0" layoutY="5.0" text="My order">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="viewOrderHistory" layoutX="-2.0" layoutY="-3.0" prefHeight="29.0" prefWidth="328.0" text="                                                               ">
+                     <font>
+                        <Font name="Arial Italic" size="11.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="5.0" layoutY="2.0" text="Pesanan Saya" />
+               </children>
+            </Pane>
+            <ImageView fx:id="clipboard" fitHeight="31.0" fitWidth="35.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambartidakadapesanan.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="24.0" layoutY="77.0" prefHeight="45.0" prefWidth="57.0" style="-fx-background-color: #ffffff;" />
+            <Pane layoutX="117.0" layoutY="77.0" prefHeight="45.0" prefWidth="57.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <ImageView fx:id="dikemas" fitHeight="37.0" fitWidth="66.0" layoutX="-5.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/gambar%20dikemas.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="205.0" layoutY="77.0" prefHeight="45.0" prefWidth="57.0" style="-fx-background-color: #ffffff;" />
+            <Pane layoutX="299.0" layoutY="77.0" prefHeight="45.0" prefWidth="57.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <ImageView fx:id="bintang" fitHeight="45.0" fitWidth="47.0" layoutX="7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/gambar%20bintang.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fx:id="dikirim" fitHeight="45.0" fitWidth="73.0" layoutX="196.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambar%20dikirim.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="belumBayar" fitHeight="37.0" fitWidth="67.0" layoutX="20.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambar%20belum%20bayar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="25.0" layoutY="128.0" text="Belum bayar">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="127.0" layoutY="128.0" text="Dikemas">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="218.0" layoutY="128.0" text="Dikirim">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="298.0" layoutY="128.0" text="Beri Penilaian">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Button fx:id="click1" layoutX="223.0" layoutY="378.0" mnemonicParsing="false" onAction="#handle1" style="-fx-background-color: #ffffff;" text="Riwayat pesanan saya  &gt;">
+               <font>
+                  <Font name="System Bold Italic" size="11.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

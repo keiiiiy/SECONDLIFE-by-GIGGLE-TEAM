@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: c3b9ea;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.InformasiAkunTokoController">
+   <children>
+      <Pane prefHeight="46.0" prefWidth="650.0" style="-fx-background-color: #fff8c9;">
+         <children>
+            <Line endX="-99.99998474121094" endY="17.20000457763672" layoutX="282.0" layoutY="13.0" startX="-100.0" />
+            <Text layoutX="192.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistem Sub Akun">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Button layoutX="479.0" layoutY="7.0" minHeight="19.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="126.0" style="-fx-background-color: c3b9ea;" text="Lihat Penghasilan" />
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="614.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/gambarakun.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="172.0" layoutY="82.0" prefHeight="393.0" prefWidth="458.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <TableView fx:id="tableView" layoutX="23.0" layoutY="94.0" opacity="0.77" prefHeight="232.0" prefWidth="418.0" style="-fx-background-color: #fff8c9;">
+              <columns>
+                <TableColumn fx:id="tcNamaPembeli" prefWidth="87.99998474121094" text="Nama Pembeli" />
+                <TableColumn fx:id="tcAlamatPembeli" prefWidth="96.79998779296875" text="Alamat Pembeli" />
+                  <TableColumn fx:id="tcProdukDipesan" maxWidth="6000.0" minWidth="15.0" prefWidth="96.0" text="Produk Dipesan" />
+                  <TableColumn fx:id="tcJumlah" prefWidth="54.4000244140625" text="Jumlah" />
+                  <TableColumn fx:id="tcTotalHarga" prefWidth="81.199951171875" text="Total Harga" />
+              </columns>
+            </TableView>
+            <ImageView fx:id="back" fitHeight="26.0" fitWidth="22.0" layoutX="23.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/arrow-left-solid.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="statusDiizinkan" layoutX="72.0" layoutY="20.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="111.0" text="Diizinkan" />
+            <Button fx:id="statusMenunggu" layoutX="197.0" layoutY="20.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="111.0" text="Menunggu" />
+            <Button fx:id="statusDitolak" layoutX="321.0" layoutY="20.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="111.0" text="Ditolak" />
+         </children>
+      </Pane>
+      <Button layoutX="35.0" layoutY="82.0" mnemonicParsing="false" style="-fx-background-color: #A93199;" text="Toko Saya" textFill="GOLD" />
+      <MenuButton layoutX="35.0" layoutY="128.0" mnemonicParsing="false" style="-fx-background-color: #A93199;" text="Tim Saya" textFill="GOLD">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Anggota" />
+          <MenuItem mnemonicParsing="false" text="Peran" />
+        </items>
+      </MenuButton>
+      <Button layoutX="35.0" layoutY="174.0" mnemonicParsing="false" style="-fx-background-color: #A93199;" text="Aktivitas" textFill="GOLD" />
+      <Button layoutX="35.0" layoutY="219.0" mnemonicParsing="false" style="-fx-background-color: #A93199;" text="Akun Saya" textFill="GOLD" />
+      <Line endX="-4.7999725341796875" layoutX="142.0" layoutY="268.0" startX="-119.99998474121094" />
+      <Button layoutX="24.0" layoutY="279.0" mnemonicParsing="false" style="-fx-background-color: c3b9ea;" text="Pusat Bantuan &gt;" />
+      <Button layoutX="24.0" layoutY="325.0" mnemonicParsing="false" style="-fx-background-color: c3b9ea;" text="Seller Centre" />
+   </children>
+</Pane>

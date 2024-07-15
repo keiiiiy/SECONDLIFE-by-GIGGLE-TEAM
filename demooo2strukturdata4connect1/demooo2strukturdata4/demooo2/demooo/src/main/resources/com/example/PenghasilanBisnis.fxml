@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: c3b9ea;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="46.0" prefWidth="650.0" style="-fx-background-color: #fff8c9;">
+         <children>
+            <ImageView fitHeight="36.0" fitWidth="22.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bars-solid.png" />
+               </image>
+            </ImageView>
+            <Line endX="-99.99998474121094" endY="17.20000457763672" layoutX="285.0" layoutY="15.0" startX="-100.0" />
+            <Text layoutX="195.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Penghasilan Saya">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="110.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SecondLife">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="25.0" fitWidth="29.0" layoutX="607.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <Pane layoutX="27.0" layoutY="269.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="201.0" prefWidth="597.0" style="-fx-background-color: ffffff;">
+         <children>
+            <Text layoutX="38.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rincian Penghasilan">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Button layoutX="23.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: fff8c9;" text="Pesanan" textFill="#a93199" />
+            <Button layoutX="154.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: fff8c9;" text="Pembeli" textFill="#a93199" />
+            <Button layoutX="250.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: fff8c9;" text="Waktu Transaksi" textFill="#a93199" />
+            <Button layoutX="461.0" layoutY="47.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" style="-fx-background-color: fff8c9;" text="Jumlah Dana" textFill="#a93199" />
+            <Button layoutX="353.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="113.0" style="-fx-background-color: fff8c9;" text="Status" textFill="#a93199" />
+            <Button layoutX="491.0" layoutY="157.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" style="-fx-background-color: #A93199;" text="Chat" textFill="GOLD">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+            <Text layoutX="89.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23523218" />
+            <ImageView fitHeight="51.0" fitWidth="49.0" layoutX="34.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" />
+            <Text layoutX="190.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Budi" />
+            <Text layoutX="271.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25-07-2024" />
+            <Text layoutX="358.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menunggu pembeli konfirmasi terima pesanan" wrappingWidth="104.0" />
+            <Text layoutX="493.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP10.500" />
+         </children>
+      </Pane>
+      <Pane layoutX="27.0" layoutY="79.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="181.0" prefWidth="413.0" style="-fx-background-color: ffffff;">
+         <children>
+            <Text layoutX="38.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Penghasilan">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Button layoutX="23.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: fff8c9;" text="Total" textFill="#a93199" />
+            <Button layoutX="199.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="197.0" style="-fx-background-color: fff8c9;" text="Pemasukan" textFill="#a93199" />
+            <Line endX="-99.99998474121094" endY="124.509765625" layoutX="276.0" layoutY="38.0" startX="-100.0" />
+            <Text layoutX="24.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp5.000.000">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="195.0" layoutY="101.0" opacity="0.54" strokeType="OUTSIDE" strokeWidth="0.0" text="Minggu Ini">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text layoutX="273.0" layoutY="101.0" opacity="0.54" strokeType="OUTSIDE" strokeWidth="0.0" text="Bulan Ini">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text layoutX="348.0" layoutY="101.0" opacity="0.54" strokeType="OUTSIDE" strokeWidth="0.0" text="Total">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text layoutX="195.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="262.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp21.000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text layoutX="334.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp21.000">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="9.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Text layoutX="24.0" layoutY="160.0" opacity="0.81" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekening Bank Saya  : ******789" wrappingWidth="177.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="447.0" layoutY="79.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="181.0" prefWidth="177.0" style="-fx-background-color: ffffff;">
+         <children>
+            <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Catatan Transaksi Penghasilan" wrappingWidth="119.587890625">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="15.0" layoutY="66.0" opacity="0.54" strokeType="OUTSIDE" strokeWidth="0.0" text="6 Juli - 13 Juli 2024">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="87.0" opacity="0.54" strokeType="OUTSIDE" strokeWidth="0.0" text="25 Juli - 31 Juli 2024">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="126.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="16.0" fitWidth="15.0" layoutX="126.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="48.0" layoutY="138.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="80.0" style="-fx-background-color: fff8c9;" text="Unduh Semua" textFill="#a93199">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>

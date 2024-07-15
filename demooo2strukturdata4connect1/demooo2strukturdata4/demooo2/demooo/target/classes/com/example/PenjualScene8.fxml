@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #c3b9ea;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.PenjualScene8Controller">
+   <children>
+      <AnchorPane layoutY="2.0" prefHeight="45.0" prefWidth="650.0" style="-fx-background-color: #FFF8C9;">
+         <children>
+            <ImageView fx:id="account" fitHeight="25.0" fitWidth="25.0" layoutX="567.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@svgtopng/user-solid.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="search" layoutX="191.0" layoutY="8.0" prefHeight="26.0" prefWidth="310.0" promptText="Cari di SecondLife" />
+            <ImageView fx:id="searchgambar" fitHeight="20.0" fitWidth="25.0" layoutX="163.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/gambarsearch.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="back" fitHeight="25.0" fitWidth="25.0" layoutX="21.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/arrow-left-solid.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="127.0" fitWidth="92.0" layoutX="49.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/secondlife2-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ScrollPane fx:id="scrollPane" layoutX="10.0" layoutY="54.0" prefHeight="438.0" prefWidth="630.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1195.0" prefWidth="630.0" style="-fx-background-color: #f4efd3;">
+               <children>
+                  <Pane layoutX="26.0" layoutY="26.0" prefHeight="22.0" prefWidth="118.0" style="-fx-background-color: #ffffff;">
+                     <children>
+                        <Label layoutX="38.0" layoutY="-1.0" prefHeight="22.0" prefWidth="41.0" text="News">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="26.0" layoutY="85.0" prefHeight="282.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;">
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="181.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@svgtopng/WhatsApp%20Image%202024-07-13%20at%2012.19.44_892ad5b8.jpg" />
+                           </image>
+                        </ImageView>
+                        <Line endX="105.0" endY="-1.52587890625E-5" layoutX="95.0" layoutY="162.0" startX="-95.0" startY="-1.52587890625E-5" stroke="#dddada" />
+                        <Label layoutX="8.0" layoutY="165.0" text="detikJabar" textFill="RED">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="86.0" layoutY="165.0" text="Minggu, 30 Juni 2024" textFill="#bcbcbc">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="145.0" layoutY="178.0" text="19.00 WIB" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="7.0" layoutY="195.0" text="Mengurangi Sampah Plastik " textAlignment="CENTER">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="7.0" layoutY="211.0" text="dengan Karya Cantik ala">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="227.0" text="Olah Plasstic">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="245.0" text="Kota Bandung menghadapi masalah" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="258.0" text="serius sampah plastik. Olah Plasstic..." textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="250.0" layoutY="48.0" prefHeight="351.0" prefWidth="343.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;">
+                     <children>
+                        <ImageView fitHeight="198.0" fitWidth="276.0" layoutX="39.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@svgtopng/WhatsApp%20Image%202024-07-13%20at%2012.19.47_d0df0718.jpg" />
+                           </image>
+                        </ImageView>
+                        <Line endX="248.33331298828125" endY="-3.0517578125E-5" layoutX="95.0" layoutY="221.0" startX="-95.0" startY="-1.52587890625E-5" stroke="#dddada" />
+                        <Label layoutX="10.0" layoutY="227.0" text="detikEdu" textFill="RED">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="226.0" layoutY="227.0" text="Minggu, 01 Juli 2024" textFill="#bcbcbc">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="282.0" layoutY="241.0" text="06.00 WIB" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="262.0" text="Mengapa harus Recycle? Ketahui Alasan, " textAlignment="CENTER">
+                           <font>
+                              <Font name="Georgia Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="280.0" text="Material Daur Ulang, dan Prosesnya">
+                           <font>
+                              <Font name="Georgia Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="302.0" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="301.0" text="Ketiga, prinsip Recycle (daur ulang) berarti kita harus memanfaatkan" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="315.0" text="Sampah yang dapat didaur ulang. Sampah yang dapat didaur ulang " textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="329.0" text="meliputi kertas, plastik, logam, dan kaca. Daur ulang adalah proses ...." textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="26.0" layoutY="413.0" prefHeight="351.0" prefWidth="343.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;">
+                     <children>
+                        <ImageView fitHeight="198.0" fitWidth="276.0" layoutX="39.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@svgtopng/gbr--kerajinan-barang-bekas-yang-bermanfaat-4.jpg" />
+                           </image>
+                        </ImageView>
+                        <Line endX="248.33331298828125" endY="-3.0517578125E-5" layoutX="95.0" layoutY="221.0" startX="-95.0" startY="-1.52587890625E-5" stroke="#dddada" />
+                        <Label layoutX="10.0" layoutY="227.0" text="detikFinance" textFill="RED">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="233.0" layoutY="227.0" text="Selasa, 03 Juli 2024" textFill="#bcbcbc">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="282.0" layoutY="241.0" text="12.36 WIB" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="262.0" text="Intip Pengolahan Sampah Plastik Menjadi" textAlignment="CENTER">
+                           <font>
+                              <Font name="Georgia Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="280.0" text="Kerajianan Bernilai Jual">
+                           <font>
+                              <Font name="Georgia Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="302.0" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="11.0" layoutY="300.0" text="Selain plastik bekas minuman kemasan, Anda bisa mengubah botol " textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="11.0" layoutY="314.0" text="plastik untuk dijadikan sebagai barang yang layak jual. Salah satu" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="328.0" text="bentuk daur ulang limbah yang bisa Anda lakukan adalah mengubah ...." textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="393.0" layoutY="415.0" prefHeight="282.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;">
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="181.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@svgtopng/Upaya-Penanganan-Sampah-Plastik-di-Badung-Membuahkan-Hasil-jadi-tas.jpg" />
+                           </image>
+                        </ImageView>
+                        <Line endX="105.0" endY="-1.52587890625E-5" layoutX="95.0" layoutY="162.0" startX="-95.0" startY="-1.52587890625E-5" stroke="#dddada" />
+                        <Label layoutX="8.0" layoutY="165.0" text="detikJabar" textFill="RED">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="86.0" layoutY="165.0" text="Minggu, 30 Juni 2024" textFill="#bcbcbc">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="145.0" layoutY="178.0" text="19.00 WIB" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="7.0" layoutY="195.0" text="Mengurangi Sampah Plastik " textAlignment="CENTER">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="7.0" layoutY="211.0" text="dengan Karya Cantik ala">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="227.0" text="Olah Plasstic">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="245.0" text="Kota Bandung menghadapi masalah" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="258.0" text="serius sampah plastik. Olah Plasstic..." textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="393.0" layoutY="728.0" prefHeight="282.0" prefWidth="200.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;">
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="181.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@svgtopng/Produk%20Daur%20Ulang%20Sampah%20Plastik.jpg" />
+                           </image>
+                        </ImageView>
+                        <Line endX="105.0" endY="-1.52587890625E-5" layoutX="95.0" layoutY="162.0" startX="-95.0" startY="-1.52587890625E-5" stroke="#dddada" />
+                        <Label layoutX="8.0" layoutY="165.0" text="detikJabar" textFill="RED">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="86.0" layoutY="165.0" text="Minggu, 28 Mei 2024" textFill="#bcbcbc">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="145.0" layoutY="178.0" text="14.20 WIB" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="7.0" layoutY="195.0" text="Keren! Pelajar SMA BPI Ban-" textAlignment="CENTER">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="7.0" layoutY="211.0" text="dung Sulap Sampah jadi">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="227.0" text="Barang Berguna">
+                           <font>
+                              <Font name="Georgia Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="245.0" text="Kota Bandung menghadapi masalah" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="258.0" text="serius sampah plastik. Olah Plasstic..." textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="26.0" layoutY="796.0" prefHeight="351.0" prefWidth="343.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;">
+                     <children>
+                        <ImageView fitHeight="198.0" fitWidth="276.0" layoutX="39.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@svgtopng/cara-mendaur-ulang-sampah-menjadi-kerajinan-tangan-1.jpg" />
+                           </image>
+                        </ImageView>
+                        <Line endX="248.33331298828125" endY="-3.0517578125E-5" layoutX="95.0" layoutY="221.0" startX="-95.0" startY="-1.52587890625E-5" stroke="#dddada" />
+                        <Label layoutX="10.0" layoutY="227.0" text="detikJabar" textFill="RED">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="233.0" layoutY="227.0" text="Selasa, 12 Juli 2024" textFill="#bcbcbc">
+                           <font>
+                              <Font size="11.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="282.0" layoutY="241.0" text="10.00 WIB" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="262.0" text="Kisah Bevi, Daur Ulang Sampah Hingga Kar-" textAlignment="CENTER">
+                           <font>
+                              <Font name="Georgia Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="280.0" text="yanya Sampai Ke Pesohor">
+                           <font>
+                              <Font name="Georgia Bold" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="302.0" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="11.0" layoutY="300.0" text="Bevi Alyz***** (65)" textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="11.0" layoutY="314.0" text="Asti dikenal sebagai pegiat daur ulang sampah yang inspiratif. Ia mampu " textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="328.0" text="tumpukan kertas yang tak bernilai jadi aneka kerajinan bernilai rupiah." textFill="#bcbcbc">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

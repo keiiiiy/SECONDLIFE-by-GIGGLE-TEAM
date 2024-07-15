@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #C3B9EA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SearchProductController">
+    <children>
+        
+        <!-- Categories HBox -->
+        <HBox layoutX="71.2" layoutY="71.0" prefHeight="26.0" prefWidth="512.0" style="-fx-background-color: #FFF;" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="71.0">
+         <children>
+            <Label fx:id="kategoriDekor" onMouseClicked="#handleCategoryClick" prefHeight="18.0" prefWidth="34.0" text="Dekor">
+               <HBox.margin>
+                  <Insets left="45.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="kategoriFashion" prefHeight="18.0" prefWidth="42.0" text="Fashion">
+               <HBox.margin>
+                  <Insets left="50.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="kategoriMainan" onMouseClicked="#handleCategoryClick" prefHeight="18.0" prefWidth="42.0" text="Mainan">
+               <HBox.margin>
+                  <Insets left="50.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="kategoriMiniature" onMouseClicked="#handleCategoryClick" prefHeight="18.0" prefWidth="56.0" text="Miniature">
+               <HBox.margin>
+                  <Insets left="50.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="kategoriFurnitur" onMouseClicked="#handleCategoryClick" prefHeight="18.0" prefWidth="51.0" text="Furniture">
+               <HBox.margin>
+                  <Insets left="50.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+         </children></HBox>
+        
+        <!-- Product Container with ScrollPane -->
+        <ScrollPane layoutX="70.4" layoutY="112.8" prefHeight="387.0" prefWidth="580.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="113.0">
+            <content>
+                <VBox fx:id="productContainer" onMouseClicked="#handleProductClick" prefWidth="582.0" style="-fx-background-color: #C3B9EA;">
+                    <!-- Isi produk akan ditambahkan secara dinamis -->
+                    <GridPane hgap="10.0" vgap="10.0" />
+                </VBox>
+            </content>
+        </ScrollPane>
+      <Pane prefHeight="46.0" prefWidth="650.0" style="-fx-background-color: #fff8c9;">
+         <children>
+            <TextField fx:id="searchField" layoutX="202.0" layoutY="11.0" onMouseClicked="#handleSearch" prefHeight="26.0" prefWidth="310.0" text="Cari di SecondLife" />
+            <ImageView fx:id="chat" fitHeight="30.0" fitWidth="30.0" layoutX="15.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../../KUMPULANGAMBAR/comments-solid.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="127.0" fitWidth="92.0" layoutX="44.0" layoutY="-21.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="19.0" fitWidth="19.0" layoutX="173.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@svgtopng/magnifying-glass-solid.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="keranjang" fitHeight="25.0" fitWidth="25.0" layoutX="537.0" layoutY="14.0" onMouseClicked="#handle" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@svgtopng/cart-shopping-solid.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="profile" fitHeight="25.0" fitWidth="25.0" layoutX="596.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@svgtopng/user-solid.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

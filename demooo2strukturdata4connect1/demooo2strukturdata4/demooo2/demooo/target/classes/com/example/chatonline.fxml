@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: F5F5F5;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ChatOnlineController">
+   <children>
+      <Pane prefHeight="500.0" prefWidth="263.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <Pane prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: F5F5F5;">
+               <children>
+                  <Label layoutX="95.0" layoutY="19.0" text="SecondLife Chat" textFill="#a93199">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="back" fitHeight="30.0" fitWidth="32.0" layoutX="60.0" layoutY="14.0" onMouseClicked="#handleCategoryClick" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/comments-solid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="chatOnline1" layoutY="61.0" prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: C7DDB5;">
+               <children>
+                  <ImageView fx:id="imageViewProfile1" fitHeight="38.0" fitWidth="43.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/th__11_-removebg-preview.png" />
+                     </image></ImageView>
+                  <Label layoutX="58.0" layoutY="13.0" text="AlaZH.Mode" />
+                  <Label layoutX="58.0" layoutY="26.0" text="Typing..." textFill="#9a9a9a">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="220.0" layoutY="9.0" text="07:21" textFill="#9a9a9a" />
+               </children>
+            </Pane>
+            <Pane fx:id="chatOnline2" layoutY="122.0" onMouseClicked="#switchToChatOnline1" prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: FFF8C9;">
+               <children>
+                  <ImageView fx:id="imageViewProfile2" fitHeight="38.0" fitWidth="43.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/6d1b13329e351cb4d5e4c3b79894eaed-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="hailandShopLabel" layoutX="58.0" layoutY="13.0" text="Hailand.Shop" />
+                  <Label layoutX="58.0" layoutY="26.0" text="Silahkan order kak" textFill="#9a9a9a">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="220.0" layoutY="10.0" text="09:25" textFill="#9a9a9a" />
+                  <Circle fill="#c3b9ea" layoutX="242.0" layoutY="36.0" radius="8.0" stroke="#c3b9ea" strokeType="INSIDE" />
+                  <Label layoutX="239.0" layoutY="27.0" text="3" />
+               </children>
+            </Pane>
+            <Pane layoutY="244.0" prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: FFF8C9;">
+               <children>
+                  <ImageView fx:id="imageViewProfile4" fitHeight="84.0" fitWidth="97.0" layoutX="9.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/9922b1285887acc13654a879c37efe2e-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="58.0" layoutY="13.0" text="LimitedStudio.Shop" />
+                  <Label layoutX="58.0" layoutY="26.0" text="Iya kak,Buruan di checkout!" textFill="#9a9a9a">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="203.0" layoutY="9.0" text="Yesterday" textFill="#9a9a9a" />
+               </children>
+            </Pane>
+            <Pane layoutY="305.0" prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <ImageView fx:id="imageViewProfile5" fitHeight="84.0" fitWidth="47.0" layoutX="8.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/fd92570562c092c46a199f51395a7702-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="58.0" layoutY="13.0" text="TheSteddy.Wear" />
+                  <Label layoutX="58.0" layoutY="26.0" text="Gratis ongkir nih sis" textFill="#9a9a9a">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="205.0" layoutY="8.0" text="Yesterday" textFill="#9a9a9a" />
+               </children>
+            </Pane>
+            <Pane layoutY="366.0" prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: FFF8C9;">
+               <children>
+                  <ImageView fx:id="imageViewProfile6" fitHeight="38.0" fitWidth="36.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/b3d2027ad7df5a4346df0a04b68d7898-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="58.0" layoutY="13.0" text="PakaiKembali" />
+                  <Label layoutX="58.0" layoutY="26.0" text="Barang kita ada di keranjang kak.." textFill="#9a9a9a">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="217.0" layoutY="9.0" text="2d ago" textFill="#9a9a9a" />
+                  <Circle fill="#c3b9ea" layoutX="244.0" layoutY="34.0" radius="8.0" stroke="#c3b9ea" strokeType="INSIDE" />
+                  <Label layoutX="241.0" layoutY="25.0" text="2" />
+               </children>
+            </Pane>
+            <Pane layoutY="427.0" prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <ImageView fx:id="imageViewProfile7" fitHeight="38.0" fitWidth="43.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/f5d2f4b28476a82dd8583441db2627ad-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="58.0" layoutY="13.0" text="TokoMainanAnak" />
+                  <Label layoutX="58.0" layoutY="26.0" text="Order sekarang kakk" textFill="#9a9a9a">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="216.0" layoutY="8.0" text="5d ago" textFill="#9a9a9a" />
+               </children>
+            </Pane>
+            <Pane layoutY="183.0" prefHeight="61.0" prefWidth="263.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <ImageView fx:id="imageViewProfile3" fitHeight="84.0" fitWidth="51.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../KUMPULANGAMBAR/8c2022553f0f22bee5537ba8b6ccccb7-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="58.0" layoutY="13.0" text="CozyMarket.id" />
+                  <Label layoutX="58.0" layoutY="26.0" text="Checkout sekarang ada promo loh" textFill="#9a9a9a">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="220.0" layoutY="9.0" text="13:06" textFill="#9a9a9a" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="262.0" layoutY="-7.0" prefHeight="69.0" prefWidth="388.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="18.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../KUMPULANGAMBAR/th__11_-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="61.0" layoutY="21.0" text="AlaZH.Mode">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Circle fill="#8ce240" layoutX="50.0" layoutY="48.0" radius="4.0" stroke="#8ce240" strokeType="INSIDE" />
+            <Label layoutX="62.0" layoutY="35.0" text="Online" textFill="#9a9a9a" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="650.0" layoutY="-74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/84b88e43de305fc7301ba01d15ef9210-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="179.0" layoutY="-93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../../Downloads/th__11_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="417.0" layoutY="-93.0" prefHeight="38.0" prefWidth="190.0" style="-fx-background-radius: 25; -fx-background-color: FFFFFF;">
+         <children>
+            <Label layoutX="14.0" layoutY="11.0" text="Hai apakah produk masih ada?" />
+         </children>
+      </Pane>
+      <VBox fx:id="paneChat" alignment="BOTTOM_CENTER" layoutX="262.0" layoutY="62.0" onMouseClicked="#handleBackClick" prefHeight="374.0" prefWidth="388.0" />
+      <Pane layoutX="274.0" layoutY="444.0" prefHeight="38.0" prefWidth="353.0" style="-fx-background-color: FFFFFF; -fx-background-radius: 10;">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="22.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@svgtopng/th__6_-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="messageField" layoutX="47.0" layoutY="7.0" onAction="#handleSendMessage" prefHeight="25.0" prefWidth="237.0" promptText="Ketik Pesan...." style="-fx-background-color: FFFFFFF;" />
+            <Button fx:id="buttonKirim" layoutX="281.0" layoutY="6.0" mnemonicParsing="false" onAction="#handleSendMessage" onMouseClicked="#handleSendMessage" prefHeight="25.0" prefWidth="51.0" style="-fx-background-color: C3B9EA;" text="Kirim" />
+         </children>
+      </Pane>
+      <ImageView fx:id="back" fitHeight="25.0" fitWidth="25.0" layoutX="13.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../KUMPULANGAMBAR/arrow-left-solid.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
